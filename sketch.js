@@ -36,7 +36,7 @@ function draw(){
     Engine.update(engine); 
     background("black");
 
-    rand = Math.round(random(1.4))
+    rand = Math.round(random(1,4))
     if(frameCount % 80 === 0){
         lightningFrame = frameCount;
         lightning = createSprite(random(10,370),random(10,30),50,90)
